@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EliahTech Agency - Web Solutions</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f8f9fa; color: #333; }
+    header { background: #1a1a2e; color: white; padding: 2em 1em; text-align: center; }
+    header h1 { margin: 0; font-size: 2.2em; }
+    header p { margin: 0.5em 0 0; font-size: 1.1em; }
+    nav { text-align: center; background: #0f3460; padding: 0.8em; }
+    nav a { color: white; text-decoration: none; margin: 0 1em; font-weight: bold; }
+    .section { padding: 2em 1em; max-width: 1000px; margin: auto; }
+    .services { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 1em; }
+    .service-box { background: white; padding: 1.5em; border-radius: 10px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 280px; }
+    .service-box h3 { margin-top: 0; }
+    .contact-form { background: white; padding: 2em; border-radius: 10px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); }
+    input, textarea { width: 100%; padding: 12px; margin-top: 12px; border: 1px solid #ccc; border-radius: 6px; }
+    button { background: #1a1a2e; color: white; border: none; padding: 12px 24px; margin-top: 12px; border-radius: 6px; cursor: pointer; }
+    footer { background: #0f3460; color: white; text-align: center; padding: 1.5em; }
+    .social-icons a { margin: 0 10px; font-size: 22px; color: white; text-decoration: none; }
+    @media (max-width: 768px) {
+      .services { flex-direction: column; align-items: center; }
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <h1>EliahTech Agency</h1>
+  <p>Smart Solutions for Web, Branding, and Online Growth</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="section" id="about">
+  <h2>Who We Are</h2>
+  <p>EliahTech Agency is a digital services firm focused on helping small businesses and creators grow online. With a team of designers, developers, and strategists, we turn your ideas into stunning, responsive websites, apps, and brands.</p>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>🌐 Website Design</h3>
+      <p>We design modern, responsive websites that look great on all devices.</p>
+    </div>
+    <div class="service-box">
+      <h3>📱 App UI/UX</h3>
+      <p>User-friendly and elegant mobile or web app interfaces that engage users.</p>
+    </div>
+    <div class="service-box">
+      <h3>🚀 Digital Marketing</h3>
+      <p>Grow your brand through SEO, content creation, and social media marketing.</p>
+    </div>
+    <div class="service-box">
+      <h3>🎨 Branding</h3>
+      <p>We help you develop a powerful visual identity: logos, color palettes & more.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>📬 Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Message or Request" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>Connect with us:</p>
+  <div class="social-icons">
+    <a href="https://t.me/eliahtech" target="_blank"><i class="fab fa-telegram"></i></a>
+    <a href="https://www.instagram.com/eliasjuma108" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/eliahtech" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://whatsapp.com/channel/0029VaPXwjgC6ZvjQ3ocsy12" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://youtube.com/@eliahtech" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p>&copy; 2025 EliahTech Agency. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
